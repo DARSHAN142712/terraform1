@@ -42,4 +42,8 @@ variable "sg_tags" {
     default = {
         Name = "allow-all"
     }
-}   
+}
+
+variable "environment" {
+    default = "prod"
+}  
